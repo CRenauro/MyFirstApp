@@ -7,6 +7,10 @@
 
 import UIKit
 
+
+
+// Tabel View Controller with Alert Action
+
 class SimpleTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
    
@@ -45,6 +49,15 @@ class SimpleTableViewController: UIViewController, UITableViewDataSource, UITabl
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         print(cars[indexPath.row])
+        
+        var alert = UIAlertController(title: "welcome", message: "you selected \(cars[indexPath.row])", preferredStyle: .alert)
+        
+        let OKAction = UIAlertAction(title: "ok", style: .default, handler: nil)
+        var cancelAction = UIAlertAction(title: "cancel", style: .destructive, handler: nil)
+        alert.addAction(cancelAction)
+        alert.addAction(OKAction)
+        self.present(alert, animated: true, completion: nil)
+        
     }
     
     /*

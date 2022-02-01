@@ -7,6 +7,9 @@
 
 import UIKit
 
+// Text Field, Gallery Image View, Slider, Segment, Image Picker,
+// Switch, Motion Shake
+
 class ControlsViewController: UIViewController, UIImagePickerControllerDelegate & UINavigationControllerDelegate, UITextFieldDelegate {
     
     

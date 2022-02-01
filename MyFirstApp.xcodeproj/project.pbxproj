@@ -15,6 +15,10 @@
 		AA67F8E8279B011E007DB453 /* ControlsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67F8E7279B011E007DB453 /* ControlsViewController.swift */; };
 		AAEB013527A18CD90056DB71 /* ResponderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEB013427A18CD90056DB71 /* ResponderViewController.swift */; };
 		AAEB013727A1A2C40056DB71 /* SimpleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEB013627A1A2C40056DB71 /* SimpleTableViewController.swift */; };
+		AAEB016227A2F04A0056DB71 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEB016127A2F04A0056DB71 /* CustomTableViewCell.swift */; };
+		AAEB016427A2F09F0056DB71 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEB016327A2F09F0056DB71 /* CustomTableViewController.swift */; };
+		AAEB016727A2F7010056DB71 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEB016627A2F7010056DB71 /* Country.swift */; };
+		AAEB016A27A2FE0A0056DB71 /* CountryRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEB016927A2FE0A0056DB71 /* CountryRepo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		AA67F8E7279B011E007DB453 /* ControlsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsViewController.swift; sourceTree = "<group>"; };
 		AAEB013427A18CD90056DB71 /* ResponderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponderViewController.swift; sourceTree = "<group>"; };
 		AAEB013627A1A2C40056DB71 /* SimpleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableViewController.swift; sourceTree = "<group>"; };
+		AAEB016127A2F04A0056DB71 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		AAEB016327A2F09F0056DB71 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		AAEB016627A2F7010056DB71 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		AAEB016927A2FE0A0056DB71 /* CountryRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRepo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,8 @@
 		AA67F8982799CB18007DB453 /* MyFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				AAEB016827A2FDC90056DB71 /* Repositories */,
+				AAEB016527A2F6080056DB71 /* Models */,
 				AA67F8992799CB18007DB453 /* AppDelegate.swift */,
 				AA67F89B2799CB19007DB453 /* SceneDelegate.swift */,
 				AA67F89F2799CB19007DB453 /* Main.storyboard */,
@@ -69,8 +79,26 @@
 				AA67F8E7279B011E007DB453 /* ControlsViewController.swift */,
 				AAEB013427A18CD90056DB71 /* ResponderViewController.swift */,
 				AAEB013627A1A2C40056DB71 /* SimpleTableViewController.swift */,
+				AAEB016127A2F04A0056DB71 /* CustomTableViewCell.swift */,
+				AAEB016327A2F09F0056DB71 /* CustomTableViewController.swift */,
 			);
 			path = MyFirstApp;
+			sourceTree = "<group>";
+		};
+		AAEB016527A2F6080056DB71 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB016627A2F7010056DB71 /* Country.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AAEB016827A2FDC90056DB71 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				AAEB016927A2FE0A0056DB71 /* CountryRepo.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +172,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEB016227A2F04A0056DB71 /* CustomTableViewCell.swift in Sources */,
 				AA67F89A2799CB18007DB453 /* AppDelegate.swift in Sources */,
 				AAEB013527A18CD90056DB71 /* ResponderViewController.swift in Sources */,
 				AAEB013727A1A2C40056DB71 /* SimpleTableViewController.swift in Sources */,
+				AAEB016727A2F7010056DB71 /* Country.swift in Sources */,
 				AA67F89C2799CB19007DB453 /* SceneDelegate.swift in Sources */,
+				AAEB016A27A2FE0A0056DB71 /* CountryRepo.swift in Sources */,
+				AAEB016427A2F09F0056DB71 /* CustomTableViewController.swift in Sources */,
 				AA67F8E8279B011E007DB453 /* ControlsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
