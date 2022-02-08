@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA0EA21227B18169000049B0 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0EA21127B18169000049B0 /* ImageViewController.swift */; };
 		AA67F89A2799CB18007DB453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67F8992799CB18007DB453 /* AppDelegate.swift */; };
 		AA67F89C2799CB19007DB453 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA67F89B2799CB19007DB453 /* SceneDelegate.swift */; };
 		AA67F8A12799CB19007DB453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA67F89F2799CB19007DB453 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA0EA21127B18169000049B0 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		AA67F8962799CB18007DB453 /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA67F8992799CB18007DB453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA67F89B2799CB19007DB453 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				AAEB013627A1A2C40056DB71 /* SimpleTableViewController.swift */,
 				AAEB016127A2F04A0056DB71 /* CustomTableViewCell.swift */,
 				AAEB016327A2F09F0056DB71 /* CustomTableViewController.swift */,
+				AA0EA21127B18169000049B0 /* ImageViewController.swift */,
 			);
 			path = MyFirstApp;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			files = (
 				AAEB016227A2F04A0056DB71 /* CustomTableViewCell.swift in Sources */,
 				AA67F89A2799CB18007DB453 /* AppDelegate.swift in Sources */,
+				AA0EA21227B18169000049B0 /* ImageViewController.swift in Sources */,
 				AAEB013527A18CD90056DB71 /* ResponderViewController.swift in Sources */,
 				AAEB013727A1A2C40056DB71 /* SimpleTableViewController.swift in Sources */,
 				AAEB016727A2F7010056DB71 /* Country.swift in Sources */,
