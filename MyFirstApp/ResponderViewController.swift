@@ -12,7 +12,8 @@ import UIKit
 class ResponderViewController: UIViewController {
 
 
-
+    @IBOutlet weak var callNumberLabel: UILabel!
+    
     
     @IBOutlet weak var stepperLabel: UILabel!
     
@@ -61,5 +62,12 @@ class ResponderViewController: UIViewController {
     }
     
    
+    @IBAction func callThisNumber(_ sender: Any) {
+        if let telURL = URL(string: "tel://"+callNumberLabel.text!),
+           UIApplication.shared.canOpenURL(telURL)
+        {
+            UIApplication.shared.open(telURL, options: [:], completionHandler: nil)
+        }
+    }
     
 }
